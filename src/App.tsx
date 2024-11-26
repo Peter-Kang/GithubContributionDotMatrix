@@ -5,8 +5,8 @@ function App() {
   const queryString = window.location.search;
 
 // Create a URLSearchParams object
-  const urlParams = new URLSearchParams(queryString);
-  const userNameToUse = urlParams == null ? "": urlParams.get('username').toString()
+  const urlParams:URLSearchParams = new URLSearchParams(queryString);
+  const userNameToUse:string = urlParams == null ? "": urlParams.get('username')?.toString()!
   //ie localhost:5173/?username=Peter-Kang
   return (
     <>
