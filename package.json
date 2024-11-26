@@ -1,6 +1,7 @@
 {
   "name": "githubcontributiondotmatrix",
   "private": true,
+  "homepage": "https://Peter-Kang.github.io/GithubContributionDotMatrix",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
